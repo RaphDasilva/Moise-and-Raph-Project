@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id ="title">Microverse Survey Form</h1>
-<p id = "description">Thank you for taking the time to help us improve the platform</p>
-<form id ="survey-form">
-  <label id="name-label">Name: </label><br><input id = "name" type = "text" required placeholder = "Enter your name"><br>
-  <label id="email-label">Email: </label><br><input id = "email" type = "email" required placeholder = "Enter your email" ><br>
-   <label id="number-label">Number: </label><br><input id = "number" type = "number" inputmode = "numeric" min = 10  max = 100  placeholder = "Enter your number"><br>
-   <select name="Sex" id="dropdown">
-    <option value="MALE">MALE</option>
-    <option value="FEMALE">FEMALE</option>
-    <option value="OTHERS">OTHERS</option>
-  </select>
-  <p>Please select your Age range </p>
-    <input type="radio"  value = "age" name ="teenager" >
-  <label for="html">18 - 25</label><br>
-  <input type="radio"  name="adult" value="age">
-  <label for="css">30 - 45</label><br>
- <input type="radio"  value = "age" name ="teenager" >
-  <label for="html">18 - 25</label><br>
-  <input type="radio"  name="adult" value="age">
-  <label for="css">30 - 45</label><br> 
-<p>What should we change?</p>
-<input type= "checkbox" value = "Front-end Projects"><label>Front-end Projects</label><br>
-<input type= "checkbox" value = "Back-end Projects"><label>Back-end Projects</label><br>
-<input type= "checkbox" value = "Challenges"><label>Challenges</label></br>
-<input type= "checkbox" value = "City Meetups"><label>City Meetups</label><br>
-<textarea placeholder = "Additional Comment here"></textarea><br>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-<button id = "submit">Submit</button>
+<body class="bodyyy">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="first_texts">
+  <h1 id="title">Microverse Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </div>
+  <form id="survey-form">
+    <div class="divisions">
+      <div class="first-section">
+    <label id="name-label">Name: </label><input id="name" type="text" required placeholder="Enter your name">
+    <label id="email-label">Email: </label><input id="email" type="email" required
+      placeholder="Enter your email">
+    <label id="number-label">Number: </label><input id="number" type="number" inputmode="numeric" min=10 max=100
+      placeholder="Enter your number">
+      <select name="Sex" id="dropdown">
+        <option value="MALE">MALE</option>
+        <option value="FEMALE">FEMALE</option>
+        <option value="OTHERS">OTHERS</option>
+      </select>
+      </div>
+      <div class="second-section">
+        <p>Please select your Age range</p>
+        <div class="second-sections-input"> 
+         <input type="radio" value="age" name="teenager">
+         <input type="radio" name="adult" value="age">
+         <input type="radio" value="age" name="teenager">
+         <input type="radio" name="adult" value="age">
+         </div>
+         <div class="labels">
+         <label for="html">18 - 25</label>
+         <label for="css">30 - 45</label>
+         <label for="html">18 - 25</label>   
+         <label for="css">30 - 45</label>
+         </div>
+  </div>
+   <div class="third-division">
+    <p>What should we change?</p>
+    <input type="checkbox" value="Front-end Projects"><label>Front-end Projects</label>
+    <input type="checkbox" value="Back-end Projects"><label>Back-end Projects</label>
+    <input type="checkbox" value="Challenges"><label>Challenges</label>
+    <input type="checkbox" value="City Meetups"><label>City Meetups</label
+    <textarea placeholder="Additional Comment here"></textarea>
+  </div>
+  </div>
+    <button id="submit">Submit</button>
 
 
-</form>
-   <!--
+  </form>
+  <!--
 
     Hello Camper!
 
@@ -51,6 +67,7 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
